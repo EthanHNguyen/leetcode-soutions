@@ -79,3 +79,5 @@ class Solution:
             minString = s[minStart:minStart+minLen]
         return minString
 ```
+
+Runtime: O(n) to map out the target string. O(m) to iterate over the string `s`. Overall, the worst case runtime is O(n + m).
